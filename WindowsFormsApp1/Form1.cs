@@ -128,5 +128,15 @@ namespace VistasRally
         {
             panel3.Visible = true;
         }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            if(comboBox1.SelectedItem != null && comboBox2.SelectedItem != null && comboBox3.SelectedItem != null)
+            {
+                button3.Visible = true;
+
+            }
+            panel3.Visible = false;
+        }
     }
 }
