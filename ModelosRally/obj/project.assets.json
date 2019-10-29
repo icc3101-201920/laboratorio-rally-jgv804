@@ -4333,11 +4333,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ing\\Documents\\rally\\ModelosRally\\ModelosRally.csproj",
+      "projectUniqueName": "C:\\Users\\Ing\\Documents\\laboratorio-rally-jgv804\\ModelosRally\\ModelosRally.csproj",
       "projectName": "ModelosRally",
-      "projectPath": "C:\\Users\\Ing\\Documents\\rally\\ModelosRally\\ModelosRally.csproj",
+      "projectPath": "C:\\Users\\Ing\\Documents\\laboratorio-rally-jgv804\\ModelosRally\\ModelosRally.csproj",
       "packagesPath": "C:\\Users\\Ing\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ing\\Documents\\rally\\ModelosRally\\obj\\",
+      "outputPath": "C:\\Users\\Ing\\Documents\\laboratorio-rally-jgv804\\ModelosRally\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ing\\AppData\\Roaming\\NuGet\\NuGet.Config",
