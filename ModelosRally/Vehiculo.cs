@@ -24,6 +24,10 @@ namespace ModelosRally
         {
             return cilindrada;
         }
+        public override string ToString()
+        {
+            return marca + " - " + cilindrada.ToString();
+        }
 
     }
 }

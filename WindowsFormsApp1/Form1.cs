@@ -21,7 +21,16 @@ namespace VistasRally
         public Form1()
         {
             InitializeComponent();
+            List<Vehiculo> listaV = new List<Vehiculo>();
+            Vehiculo auto1 = new Vehiculo("Hyundai",1400);
+            Vehiculo auto2 = new Vehiculo("Redbull",1600);
+            Vehiculo auto3 = new Vehiculo("Volkswagen",2000);
+            listaV.Add(auto1);
+            listaV.Add(auto2);
+            listaV.Add(auto3);
+
             this.RolComboBox.DataSource = Enum.GetValues(typeof(Rol));
+            this.comboBox3.DataSource = listaV;
         }
 
         private void AgregarPilotoButton_Click(object sender, EventArgs e)
