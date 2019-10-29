@@ -1,0 +1,8 @@
+C:\Users\andrea\source\repos\ModelosRally\ModelosRally\bin\Release\netstandard1.6\ModelosRally.deps.json
+C:\Users\andrea\source\repos\ModelosRally\ModelosRally\bin\Release\netstandard1.6\ModelosRally.dll
+C:\Users\andrea\source\repos\ModelosRally\ModelosRally\bin\Release\netstandard1.6\ModelosRally.pdb
+C:\Users\andrea\source\repos\ModelosRally\ModelosRally\obj\Release\netstandard1.6\ModelosRally.csprojResolveAssemblyReference.cache
+C:\Users\andrea\source\repos\ModelosRally\ModelosRally\obj\Release\netstandard1.6\ModelosRally.csproj.CoreCompileInputs.cache
+C:\Users\andrea\source\repos\ModelosRally\ModelosRally\obj\Release\netstandard1.6\ModelosRally.AssemblyInfo.cs
+C:\Users\andrea\source\repos\ModelosRally\ModelosRally\obj\Release\netstandard1.6\ModelosRally.dll
+C:\Users\andrea\source\repos\ModelosRally\ModelosRally\obj\Release\netstandard1.6\ModelosRally.pdb

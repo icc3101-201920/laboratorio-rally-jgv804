@@ -1,0 +1,8 @@
+C:\Users\andrea\source\repos\ModelosRally\VistasRally\bin\Release\VistasRally.dll
+C:\Users\andrea\source\repos\ModelosRally\VistasRally\bin\Release\VistasRally.pdb
+C:\Users\andrea\source\repos\ModelosRally\VistasRally\obj\Release\VistasRally.csprojResolveAssemblyReference.cache
+C:\Users\andrea\source\repos\ModelosRally\VistasRally\obj\Release\VistasRally.UserControl1.resources
+C:\Users\andrea\source\repos\ModelosRally\VistasRally\obj\Release\VistasRally.csproj.GenerateResource.cache
+C:\Users\andrea\source\repos\ModelosRally\VistasRally\obj\Release\VistasRally.csproj.CoreCompileInputs.cache
+C:\Users\andrea\source\repos\ModelosRally\VistasRally\obj\Release\VistasRally.dll
+C:\Users\andrea\source\repos\ModelosRally\VistasRally\obj\Release\VistasRally.pdb
