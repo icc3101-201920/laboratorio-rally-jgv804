@@ -16,6 +16,8 @@ namespace VistasRally
     {
         public event EventHandler<AgregarPilotoEventArgs> OnAgregarPiloto;
         public event EventHandler<AgregarNaveganteEventArgs> OnAgregarNavegante;
+        public event EventHandler<AgregarEquipoEventArgs> OnAgregarEquipo;
+        public static int counter = 1;
 
 
         public Form1()
@@ -56,7 +58,11 @@ namespace VistasRally
         {
             comboBox2.Items.Add(pilotoNuevo);
         }
-        
+        public void ActualizarListadoEquipos(Equipo pilotoNuevo)
+        {
+            comboBox4.Items.Add(pilotoNuevo);
+        }
+
 
 
 
@@ -111,7 +117,16 @@ namespace VistasRally
 
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
+            /*if (checkBox1.Checked == true && checkBox2.Checked == true && checkBox3.Checked == true)
+            {
+                button3.Visible = true;
 
+            }
+            else
+            {
+                button3.Visible = false;
+            }
+            */
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -131,12 +146,34 @@ namespace VistasRally
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            if(comboBox1.SelectedItem != null && comboBox2.SelectedItem != null && comboBox3.SelectedItem != null)
+            
+            
+            if (OnAgregarEquipo != null)
             {
-                button3.Visible = true;
 
+                AgregarEquipoEventArgs EquipoArgs = new AgregarEquipoEventArgs();
+                EquipoArgs.nombre = "equipo " + counter.ToString();
+                EquipoArgs.piloto = comboBox1.SelectedItem as Persona;
+                EquipoArgs.navegante = comboBox2.SelectedItem as Persona;
+                EquipoArgs.vehiculo = comboBox3.SelectedItem as Vehiculo;
+                OnAgregarEquipo(this, EquipoArgs);
+                counter += 1;
             }
+
             panel3.Visible = false;
+            button3.Visible = true;
+
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

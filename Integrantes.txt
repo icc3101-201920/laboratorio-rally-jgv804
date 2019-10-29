@@ -1,3 +1,5 @@
 Integrantes:
 Jose Miguel Iturralde 19.288.363-6
 Juan Guillermo Vergara 19.527.823-7
+
+Confirmar seleccion solo cuando hayan tres elementos seleccionados

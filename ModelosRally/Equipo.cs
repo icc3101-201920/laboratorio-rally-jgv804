@@ -32,6 +32,10 @@ namespace ModelosRally
         {
             return vehiculos;
         }
+        public override string ToString()
+        {
+            return nombre + " / " + vehiculos[0].ToString()+ " / " + tripulacion[0].ToString() + " / " + tripulacion[1].ToString();
+        }
 
     }
 }

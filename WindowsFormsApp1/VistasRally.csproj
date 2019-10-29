@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="AgregarPilotoEventArgs.cs" />
     <Compile Include="AgregarNaveganteEventArgs.cs" />
+    <Compile Include="AgregarEquipoEventArgs.cs" />
     <Compile Include="Controller.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
