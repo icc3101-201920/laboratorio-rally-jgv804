@@ -62,6 +62,11 @@ namespace VistasRally
         {
             comboBox4.Items.Add(pilotoNuevo);
         }
+        public bool isChecked(CheckBox checkbox)
+        {
+            if (checkbox.CheckState == CheckState.Checked) return true;
+            else return false;
+        }
 
 
 
@@ -120,6 +125,7 @@ namespace VistasRally
             /*if (checkBox1.Checked == true && checkBox2.Checked == true && checkBox3.Checked == true)
             {
                 button3.Visible = true;
+               
 
             }
             else
@@ -160,8 +166,12 @@ namespace VistasRally
                 counter += 1;
             }
 
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
             panel3.Visible = false;
-            button3.Visible = true;
+
+            button3.Visible = false;
 
 
         }
@@ -173,6 +183,122 @@ namespace VistasRally
 
         private void label4_Click_1(object sender, EventArgs e)
         {
+
+        }
+        private void CheckBox1_CheckedChanged(Object sender, EventArgs e)
+        {
+
+            /*//MessageBox.Show("hola");//
+            if (isChecked(checkBox1) && isChecked(checkBox2) && isChecked(checkBox3))
+            {
+                //MessageBox.Show("chao");//
+                button3.Visible = true;
+
+
+            }
+            else
+            {
+                //MessageBox.Show("chao 2");//
+                button3.Visible = false;
+            }
+
+            //MessageBox.Show("You are in the CheckBox.CheckedChanged event.");//
+            */
+        }
+        private void CheckBox2_CheckedChanged(Object sender, EventArgs e)
+        {
+
+            //MessageBox.Show("hola");//
+            /*
+            if (isChecked(checkBox1) &&  isChecked(checkBox2) && isChecked(checkBox3))
+            {
+                //MessageBox.Show("chao");//
+                button3.Visible = true;
+
+
+            }
+            else
+            {
+                //MessageBox.Show("chao2");//
+                button3.Visible = false;
+            }
+            //MessageBox.Show("You are in the CheckBox.CheckedChanged event.");//
+            */
+        }
+        private void CheckBox3_CheckedChanged(Object sender, EventArgs e)
+        {
+
+           /* MessageBox.Show("hola");
+            if (isChecked(checkBox1) &&  isChecked(checkBox2) && isChecked(checkBox3))
+            {
+                MessageBox.Show("chao");
+                button3.Visible = true;
+
+
+            }
+            else
+            {
+                MessageBox.Show("chao2");
+                button3.Visible = false;
+            }
+            //MessageBox.Show("You are in the CheckBox.CheckedChanged event.");//
+            */
+        }
+
+        private void CheckBox1_CheckedChanged_1(object sender, EventArgs e)
+        {
+            //MessageBox.Show("hola");//
+
+            if (isChecked(checkBox1) && isChecked(checkBox2) && isChecked(checkBox3))
+            {
+                //MessageBox.Show("chao");//
+                button3.Visible = true;
+
+
+            }
+            else
+            {
+                //MessageBox.Show("chao2");//
+                button3.Visible = false;
+            }
+
+        }
+
+        private void CheckBox2_CheckedChanged_1(object sender, EventArgs e)
+        {
+            //MessageBox.Show("hola");//
+
+            if (isChecked(checkBox1) && isChecked(checkBox2) && isChecked(checkBox3))
+            {
+                //MessageBox.Show("chao");//
+                button3.Visible = true;
+
+
+            }
+            else
+            {
+                //MessageBox.Show("chao2");//
+                button3.Visible = false;
+            }
+
+        }
+
+        private void CheckBox3_CheckedChanged_1(object sender, EventArgs e)
+        {
+            //MessageBox.Show("hola");//
+
+            if (isChecked(checkBox1) && isChecked(checkBox2) && isChecked(checkBox3))
+            {
+                //MessageBox.Show("chao");//
+                button3.Visible = true;
+
+
+            }
+            else
+            {
+                //MessageBox.Show("chao2");//
+                button3.Visible = false;
+            }
 
         }
     }

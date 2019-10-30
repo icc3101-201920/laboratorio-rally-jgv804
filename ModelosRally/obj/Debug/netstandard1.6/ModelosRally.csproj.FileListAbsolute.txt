@@ -14,3 +14,12 @@ C:\Users\Ing\Documents\laboratorio-rally-jgv804\ModelosRally\obj\Debug\netstanda
 C:\Users\Ing\Documents\laboratorio-rally-jgv804\ModelosRally\obj\Debug\netstandard1.6\ModelosRally.AssemblyInfo.cs
 C:\Users\Ing\Documents\laboratorio-rally-jgv804\ModelosRally\obj\Debug\netstandard1.6\ModelosRally.dll
 C:\Users\Ing\Documents\laboratorio-rally-jgv804\ModelosRally\obj\Debug\netstandard1.6\ModelosRally.pdb
+C:\Users\Lenovo\Documents\Memo\repo\laboratorio-rally-jgv804\ModelosRally\bin\Debug\netstandard1.6\ModelosRally.deps.json
+C:\Users\Lenovo\Documents\Memo\repo\laboratorio-rally-jgv804\ModelosRally\bin\Debug\netstandard1.6\ModelosRally.dll
+C:\Users\Lenovo\Documents\Memo\repo\laboratorio-rally-jgv804\ModelosRally\bin\Debug\netstandard1.6\ModelosRally.pdb
+C:\Users\Lenovo\Documents\Memo\repo\laboratorio-rally-jgv804\ModelosRally\obj\Debug\netstandard1.6\ModelosRally.csprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\Memo\repo\laboratorio-rally-jgv804\ModelosRally\obj\Debug\netstandard1.6\ModelosRally.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\Memo\repo\laboratorio-rally-jgv804\ModelosRally\obj\Debug\netstandard1.6\ModelosRally.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Documents\Memo\repo\laboratorio-rally-jgv804\ModelosRally\obj\Debug\netstandard1.6\ModelosRally.AssemblyInfo.cs
+C:\Users\Lenovo\Documents\Memo\repo\laboratorio-rally-jgv804\ModelosRally\obj\Debug\netstandard1.6\ModelosRally.dll
+C:\Users\Lenovo\Documents\Memo\repo\laboratorio-rally-jgv804\ModelosRally\obj\Debug\netstandard1.6\ModelosRally.pdb
